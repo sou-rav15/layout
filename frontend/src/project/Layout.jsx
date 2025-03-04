@@ -33,7 +33,7 @@ function Layout() {
     <>
       <section className='bg-black w-full md:h-[1000px] h-[2800px] mb-10 flex space-x-2 justify center items-center'>
       <div 
-      className='absolute top-[4%] left-[3%] md:hidden w-[30px] h-[30px] bg-red-300 rounded-full justify-center flex items-center 'onClick={handleMenu}>
+      className='absolute top-[4%] left-[3%] md:hidden w-[30px] h-[30px]  rounded-full justify-center flex items-center 'onClick={handleMenu}>
       <IoMdMenu color='white' size='20px'/>
      
       </div>
@@ -48,7 +48,7 @@ function Layout() {
         >
            
                     <div className='flex justify-center items-center space-x-3'>
-                        <div>logo</div>
+                        <div><img src="./codetiki.png" alt="logo"className='w-[25px] h-[25px]' /></div>
                         <div><h2 className='text-white'>Code <span className='text-[#f69361]'> Tikki</span></h2></div>
                     </div>
                     <div className=' text-[13px] flex justify-center items-center h-[35%]'> 
